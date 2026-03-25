@@ -12,6 +12,7 @@ import {
 
 type Tab = 'overview' | 'scores' | 'draws' | 'charity' | 'winnings'
 
+
 function WinningCard({ w, onUploaded }: { w: any; onUploaded: () => void }) {
   const [uploading, setUploading] = useState(false)
   const [error, setError] = useState('')
